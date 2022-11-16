@@ -1,0 +1,64 @@
+﻿/*body {
+  background: #d6d6d6
+}*/
+
+.boxe {
+  text-align: center;
+  margin-top: 10px;
+} 
+
+.boxe button {
+  background: #FF550E;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  color: white
+}
+
+#eye {
+  transition: all .2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #eee;
+  box-shadow: inset rgba(0, 0, 0, .4) 0 -1px 3px 1px, inset rgba(0, 0, 0, .5) 0 -5px 20px, rgba(0, 0, 0, .5) 0 -5px 10px, rgba(255, 255, 255, .5) 0 5px 10px;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 40, color-stop(.12, rgba(0, 0, 0, 1)), color-stop(.22, hsl(50, 50%, 50%)), color-stop(.4, hsl(10, 50%, 30%)), color-stop(.5, rgba(255, 255, 255, 0)));
+  background-image: -moz-radial-gradient(50% 50% 0deg, rgba(0, 0, 0, 1) 12%, hsl(50, 50%, 50%) 22%, hsl(10, 50%, 30%) 40%, rgba(255, 255, 255, 0) 50%);
+  background-image: -o-radial-gradient(50% 21% 0deg, rgba(255, 255, 255, .8) 0%, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, .33) 100%);
+  background-image: radial-gradient(50% 50% 0deg, circle, rgba(0, 0, 0, 1) 12%, hsl(50, 50%, 50%) 22%, hsl(10, 50%, 30%) 40%, rgba(255, 255, 255, 0) 50%);
+}
+
+#eye:before {
+ content: "";
+  position: absolute;
+  top: 20%;
+  left: 32%;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  transform: skewX(-10deg);
+  transition: all .2s ease;
+}
+
+#eye.lookl {
+  background-position: -20px 0;
+}
+
+#eye.lookr {
+  background-position: 20px 0;
+}
+
+#eye.close {
+  height: 2px;
+}
+
+#eye.close:before {
+  opacity: 0;
+}

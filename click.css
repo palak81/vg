@@ -1,0 +1,30 @@
+﻿.container {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 420px;
+}
+
+.container p {
+	color: #000;
+	cursor: pointer;
+  background: #ffffde;
+  padding: 5px 0;
+  border-radius: 50px;
+  opacity: 0.2;
+  text-transform: uppercase;
+}
+
+p:hover + h1:after {
+	content: '{0_0}';
+}
+
+h1:after {
+	content: '{-_-}';
+	color: #d94362;
+	font-family:  cursive;
+	font-size: 4em;
+}
+    
+
+    

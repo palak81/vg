@@ -1,0 +1,40 @@
+﻿
+<html>
+<head>
+
+    <title></title>
+    <script src="js/jquery.js" type="text/javascript"></script>
+        <script>
+
+       $('button').on('click', function () {
+            $('#eye').toggleClass($(this).data('class'));
+        })
+     
+                        </script>
+   
+    <link href="eye.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div class="plk">
+                    <div id="eye" class="">
+                    </div>
+                    <div class="boxe">
+                        <button data-class="close">
+                            Close/Open</button>
+                        <button data-class="lookl">
+                            Look Left</button>
+                        <button data-class="lookr">
+                            Look Right</button>
+                        <script>
+
+                            $('button').on('click', function () {
+                                $('#eye').toggleClass($(this).data('class'));
+                            })
+     
+                        </script>
+                    </div>
+                </div>
+    <script src="js/jquery.js"></script>   
+    </body>
+    </html>
